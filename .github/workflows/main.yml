@@ -30,4 +30,4 @@ jobs:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           repository: onegridxyz/customer-portal-deploy
           event-type: main-push-event
-          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}
+          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
