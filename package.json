@@ -9,12 +9,12 @@
   },
   "private": true,
   "dependencies": {
-    "@jest/types": "^29.5.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tslib": "^2.3.0"
   },
   "devDependencies": {
+    "@jest/types": "^29.5.0",
     "@babel/preset-react": "^7.14.5",
     "@nrwl/cypress": "15.8.6",
     "@nrwl/eslint-plugin-nx": "15.8.6",
