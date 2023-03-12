@@ -3,18 +3,21 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve",
-    "build": "nx build",
-    "test": "nx test"
+    "start": "npx nx serve",
+    "build": "npx nx build",
+    "test": "npx nx test"
   },
   "private": true,
+  "optionalDependencies": {
+    "@nrwl/nx-linux-x64-gnu": "15.8.1"
+  },
   "dependencies": {
-    "@jest/types": "^29.5.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tslib": "^2.3.0"
   },
   "devDependencies": {
+    "@jest/types": "^29.5.0",
     "@babel/preset-react": "^7.14.5",
     "@nrwl/cypress": "15.8.6",
     "@nrwl/eslint-plugin-nx": "15.8.6",
