@@ -811,6 +811,7 @@ export function NxWelcome({ title }: { title: string }) {
               />
             </svg>
           </p>
+          <p>Truong Test</p>
         </div>
       </div>
     </>
