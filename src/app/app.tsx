@@ -6,8 +6,8 @@ import NxWelcome from './nx-welcome';
 export function App() {
   return (
     <>
+      <div>Truong Le</div>
       <NxWelcome title="customer-portal" />
-
       <div />
     </>
   );
