@@ -10,6 +10,6 @@ describe('App', () => {
 
   it('should have a greeting as the title', () => {
     const { getByText } = render(<App />);
-    expect(getByText(/Welcome customer-portal/gi)).toBeTruthy();
+    expect(getByText(/OneGrid.xyz/gi)).toBeTruthy();
   });
 });
