@@ -12,13 +12,18 @@
     "@nrwl/nx-linux-x64-gnu": "15.8.1"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.14",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tslib": "^2.3.0"
   },
   "devDependencies": {
-    "@jest/types": "^29.5.0",
     "@babel/preset-react": "^7.14.5",
+    "@jest/types": "^29.5.0",
     "@nrwl/cypress": "15.8.6",
     "@nrwl/eslint-plugin-nx": "15.8.6",
     "@nrwl/jest": "15.8.6",
