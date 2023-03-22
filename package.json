@@ -5,7 +5,8 @@
   "scripts": {
     "start": "npx nx serve",
     "build": "npx nx build",
-    "test": "npx nx test"
+    "test": "npx nx test",
+    "lint": "npx nx lint"
   },
   "private": true,
   "optionalDependencies": {
@@ -25,7 +26,7 @@
     "@babel/preset-react": "^7.14.5",
     "@jest/types": "^29.5.0",
     "@nrwl/cypress": "15.8.6",
-    "@nrwl/eslint-plugin-nx": "15.8.6",
+    "@nrwl/eslint-plugin-nx": "^15.8.6",
     "@nrwl/jest": "15.8.6",
     "@nrwl/js": "15.8.6",
     "@nrwl/linter": "15.8.6",
