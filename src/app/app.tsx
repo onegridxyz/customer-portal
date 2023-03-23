@@ -8,12 +8,6 @@ export function App() {
   return (
     <div>
       <div>
-        <span>
-          <Link to={'/'}>Home</Link>
-          <Link to={'/about'}>About</Link>
-        </span>
-      </div>
-      <div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
